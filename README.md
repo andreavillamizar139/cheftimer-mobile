@@ -30,11 +30,11 @@ Conectar el dispositivo [físico](https://developer.android.com/studio/run/devic
 
 ## Ejecución del proyecto en Android Studio
 
-```bash
-# Desde Android Studio
+
+### Desde Android Studio
 1. Abre el archivo del proyecto que deseas ejecutar.
 2. Haz clic en el botón "Run" o en el icono verde de "play" en la esquina superior derecha de Android Studio.
-```
+
 
 ## Instalación y Ejecución del APK
 
