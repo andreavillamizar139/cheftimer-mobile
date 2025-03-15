@@ -39,7 +39,7 @@ Conectar el dispositivo [físico](https://developer.android.com/studio/run/devic
 ## Instalación y Ejecución del APK
 
 ### 1. Descargar el APK
-Descargar el archivo APK denominado `[NOMBRE_APK]`, ubicado en `[RUTA_APK]`.
+Descargar el archivo APK denominado `cheftimer.apk`, ubicado en la raíz del proyecto.s
 ### 2. Instalar en Dispositivo Físico
 1. Habilita el modo desarrollador en el dispositivo:
     - Ir a `Ajustes > Acerca del teléfono`
@@ -56,5 +56,5 @@ Descargar el archivo APK denominado `[NOMBRE_APK]`, ubicado en `[RUTA_APK]`.
 4. Instala el APK:
 
    ```bash
-   adb install ruta/al/archivo.apk
+   adb install cheftimer.apk
    ```
