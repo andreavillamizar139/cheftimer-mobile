@@ -39,7 +39,7 @@ Conectar el dispositivo [físico](https://developer.android.com/studio/run/devic
 ## Instalación y Ejecución del APK
 
 ### 1. Descargar el APK
-Descargar el archivo APK denominado `cheftimer.apk`, ubicado en la raíz del proyecto.s
+Descargar el archivo APK denominado `cheftimer.apk`, ubicado en la raíz del proyecto.
 ### 2. Instalar en Dispositivo Físico
 1. Habilita el modo desarrollador en el dispositivo:
     - Ir a `Ajustes > Acerca del teléfono`
