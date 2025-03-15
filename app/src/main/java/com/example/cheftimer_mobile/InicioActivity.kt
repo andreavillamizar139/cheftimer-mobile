@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.textview.MaterialTextView
 
 class InicioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,7 @@ class InicioActivity : AppCompatActivity() {
         // Configurar el clic para regresar a la pantalla de inicio de sesión
         logoutButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)  // Solo inicia la pantalla sin borrar el historial
+            startActivity(intent)
         }
 
         // Encuentra el botón de "microfono"
@@ -26,7 +27,16 @@ class InicioActivity : AppCompatActivity() {
         // Configurar el clic para regresar a la pantalla de voz
         vozButton.setOnClickListener {
             val intent = Intent(this, VozActivity::class.java)
-            startActivity(intent)  // Solo inicia la pantalla sin borrar el historial
+            startActivity(intent)
+        }
+
+        // Encuentra el botón de "mis alarmas"
+        val alarms = findViewById<MaterialTextView>(R.id.tabMyAlarms)
+
+        // Configurar el clic para regresar a la pantalla de voz
+        alarms.setOnClickListener {
+            val intent = Intent(this, GestionManualAlarmasNoDataActivity::class.java)
+            startActivity(intent)
         }
 
     }
